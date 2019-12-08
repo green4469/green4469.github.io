@@ -1,5 +1,7 @@
 ---
 title: "프로그래밍 언어에서 자료형은 무엇이고 왜 필요한 것인가"
+header: 
+  image: https://www.itl.cat/pngfile/big/1-14241_wallpaper-photos-beautiful-ocean-wallpapers-for-desktop.jpg
 categories:
   - programming language
 tags:
@@ -69,3 +71,6 @@ toc_sticky: true
 1. 컴퓨터는 0과 1만을 저장할 수 있다. 이진법을 이용하면 숫자를 표현할 때는 문제가 없다.
 2. 그런데 컴퓨터는 숫자뿐만이 아니라 문자도 표현할 수 있어야한다. 표현 체계는 이진법으로 유일한데, 표현할 자료의 형식이 여러 개이다 보니 하나의 표현이 해석되는 형식에 따라 여러 의미를 가지는 문제가 발생한다. (e.g., 1000001 == 65? or 'A'?)
 3. 위와 같은 문제를 해결하기 위해 자료를 해석하는 형식을 정의하는 자료형을 도입하였다. 메모리 내 표현이 같더라도, 자료형이 다르면 각 형식에 따라 다르게 해석될 수 있다. 자료형은 메모리에 표현된 정보를 해석하는 방식이다.
+
+# References
+커버 이미지: https://www.itl.cat/pngfile/big/1-14241_wallpaper-photos-beautiful-ocean-wallpapers-for-desktop.jpg
