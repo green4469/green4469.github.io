@@ -55,6 +55,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+comments:
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : "my-blog-zsxqmysp76" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+
 author:
   name   : "김유민"
   avatar : "/assets/images/bio-photo.jpg"
