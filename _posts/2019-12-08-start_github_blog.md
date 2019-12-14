@@ -1,5 +1,5 @@
 ---
-title: "Jekyll, Github Pages, Minimal Mistakes 로 시작하는 블로깅 튜토리얼"
+title: "Jekyll, Github Pages, Minimal Mistakes 로 시작하는 깃허브 블로그 튜토리얼"
 header:
   image: https://live.staticflickr.com/8084/8396909762_813a2b1829_h.jpg
 categories:
