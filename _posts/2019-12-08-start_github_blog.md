@@ -89,7 +89,7 @@ Jekyll 은 루비(Ruby)라는 프로그래밍 언어를 사용해 만들어졌�
 
 Rvm 의 설치 방법은 [여기](https://rvm.io/rvm/install)에서 확인하실 수 있습니다. 우분투에서 설치하는 방법은 아래와 같습니다.
 
-```sh
+```console
 $ sudo apt-get install software-properties-common
 $ sudo apt-add-repository -y ppa:rael-gc/rvm
 $ sudo apt-get update
@@ -98,7 +98,7 @@ $ sudo apt-get install rvm
 
 Rvm 을 설치하셨다면 루비를 설치하는 방법은 간단합니다!
 
-```sh
+```console
 $ rvm install ruby
 ```
 
@@ -117,7 +117,7 @@ $ rvm install ruby
 
 빈 레포지토리가 생성됐으니 이를 우리의 컴퓨터로 가져오겠습니다. 적당한 디렉토리로 이동해 터미널을 실행해주세요.
 
-```sh
+```console
 $ git clone https://github.com/{자신의 Github 아이디}.github.io.git
 ```
 
@@ -127,7 +127,7 @@ $ git clone https://github.com/{자신의 Github 아이디}.github.io.git
 Minimal Mistakes 테마 제공자가 만들어 놓은 starter 레포지토리가 있습니다. 우리는 이 레포지토리를 가져와 내용물을 우리 프로젝트에
 복사할 것입니다.
 
-```sh
+```console
 $ git clone https://github.com/mmistakes/mm-github-pages-starter.git
 ```
 
@@ -136,13 +136,13 @@ $ git clone https://github.com/mmistakes/mm-github-pages-starter.git
 
 파일 탐색기로 복사 & 붙여넣기 하셔도 되고, 커맨드라인을 이용하셔도 좋습니다. 커맨드라인을 입력하실 경우 아래의 커맨드를 터미널에 입력해주세요.
 
-```sh
+```console
 $ cp -rf mm-github-pages-starter/ {자신의 Github 아이디}.github.io/
 ```
 
 먼저 로컬에서 여러분의 블로그가 잘 만들어졌는지 확인해봅시다. "{자신의 Github 아이디}.github.io" 디렉토리로 이동해 아래의 커맨드를 입력합니다.
 
-```sh
+```console
 $ bundle install
 $ jekyll serve
 ```
@@ -165,7 +165,7 @@ Github 레포지토리에 여러분의 코드를 업로드해 다른 사람이 �
 
 블로그 디렉토리로 이동해 터미널에 아래의 코드를 입력해주세요.
 
-```sh
+```console
 $ git add .
 $ git commit -m "initial commit"
 $ git push origin master
