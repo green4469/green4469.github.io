@@ -1,7 +1,7 @@
 ---
 title: "프로그래밍 언어에서 자료형은 무엇이고 왜 필요한 것인가"
 header: 
-  image: https://www.itl.cat/pngfile/big/1-14241_wallpaper-photos-beautiful-ocean-wallpapers-for-desktop.jpg
+  image: https://res.cloudinary.com/practicaldev/image/fetch/s--ZmPcIbAW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dzone.com/storage/temp/12334613-971.jpg
 categories:
   - programming language
 tags:
